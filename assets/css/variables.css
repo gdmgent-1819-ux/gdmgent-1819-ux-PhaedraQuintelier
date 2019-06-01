@@ -1,9 +1,10 @@
-
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-primary: hsl(61, 60%, 46%);
+  --c-white: hsl(100, 100%, 100%);
+  --c-black: hsl(0, 0%, 0%);
 
   /**
    * Layout
@@ -13,14 +14,24 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
+
+  --t-primary: 'jaapokki';
+  --t-secondary: 'p22-underground';
+  --t-tertiary: Arial, Helvetica, sans-serif;
 
   --t-headline: var(--t-primary);
   --t-subtitle: var(--t-primary);
   --t-body: var(--t-secondary);
   --t-code: var(--t-tertiary);
+
+  @font-face {
+    font-family: 'jaapokkiRegular';
+    src: url(jaapokki-regular.woff);
+  }
+
+  @font-face {
+    font-family: 'jaapokki-substract';
+    src: url(jaapokkisubstract-regular.woff);
+  }
+
 }
-
-

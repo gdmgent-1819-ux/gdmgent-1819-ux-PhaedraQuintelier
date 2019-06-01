@@ -7,3 +7,163 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.page-header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--c-black);
+  color: var(--c-white);
+}
+
+.name {
+  margin: 15px 18px;
+  color: var(--c-white);
+  float: left;
+
+}
+
+.nav {
+  padding-right: 200px;
+}
+
+.topnav a {
+  float: right;
+
+  display: block;
+  color: var(--c-white);
+  text-align: center;
+  padding: 32px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: var(--font-heading);
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: var(--c-white);
+}
+
+.inloggen {
+  float: right;
+}
+
+.icon {
+  color: var(--c-white);
+  padding-top: 30px;
+  font-size: 3em;
+}
+
+.foto {
+  font: var(--c-primary);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-image: url("https://images.pexels.com/photos/1724422/pexels-photo-1724422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  text-align: center;
+  position: relative;
+}
+
+.titel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color: var(--c-white);
+}
+
+img.center {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-right: 250px;
+}
+
+.middle {
+  width: 100%;
+  height: 1500px;
+}
+
+.welkom {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.uitleg1 {
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 100px;
+  left: 200px;
+  position: absolute;
+}
+
+img.size {
+  max-height: 40%;
+  max-width: 40%;
+  float: left;
+}
+
+.foto2 {
+  padding-top: 600px;
+  padding-left: 300px;
+}
+
+img.grootte {
+  max-height: 60%;
+  max-width: 60%;
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+
+.page-footer {
+  width: 100%;
+  height: 300px;
+  background-color: var(--c-black);
+  color: var(--c-white);
+
+}
+
+.phone {
+  padding-left: 100px;
+  padding-top: 50px;
+  color: var(--c-white);
+  float: left;
+  overflow: auto;
+}
+
+.follow {
+
+  padding-top: 50px;
+  padding-left: 320px;
+  color: var(--c-white);
+
+  width: 500px;
+  overflow: auto;
+}
+
+img.app {
+  max-height: 2%;
+  max-width: 2%;
+
+}
+
+.newsletter {
+  color: var(--c-white);
+  padding-left: 1100px;
+  width: 900px;
+  overflow: auto;
+}
